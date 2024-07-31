@@ -2,9 +2,9 @@ pipeline {
 
     agent any
 
-	/*tools {
+	tools {
         maven "maven3"
-    }*/
+    }
 
     environment {
         registry = "imranvisualpath/vproappdock"
